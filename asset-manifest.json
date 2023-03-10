@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/immersive-realities/static/css/main.ed1da6f9.css",
+    "main.js": "/immersive-realities/static/js/main.73739a35.js",
+    "static/media/filter1.mp4": "/immersive-realities/static/media/filter1.2466392f740045e04976.mp4",
+    "static/media/giphy.mp4": "/immersive-realities/static/media/giphy.767a7f8f1adb2d940541.mp4",
+    "index.html": "/immersive-realities/index.html",
+    "main.ed1da6f9.css.map": "/immersive-realities/static/css/main.ed1da6f9.css.map",
+    "main.73739a35.js.map": "/immersive-realities/static/js/main.73739a35.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed1da6f9.css",
+    "static/js/main.73739a35.js"
+  ]
+}
