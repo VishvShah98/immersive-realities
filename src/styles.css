@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+ overflow-x: hidden;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.para-font {
+  font-size: 1.5vw;
+}
+
+.navbar-companyName {
+  position: absolute;
+  text-align: center;
+  top: 1%;
+  left: 1%;
+  font-size: 1.75vw;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+
+.navbar-email {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: black;
+  z-index: 1;
+}
+
+.home-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.home-textIntro {
+  margin-top: 10vw;
+  font-weight: 100;
+  font-size: 4vw;
+  text-align: center;
+  padding: 0 10vw;
+}
+
+.home-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2vw;
+}
+
+.product {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-information {
+  width: 60%;
+  position: relative;
+  font-size: 7vw;
+}
+.phone-container {
+  position: relative;
+  width: 40%;
+  box-shadow: 12px 12px 14px rgba(203, 234, 204, 0.25);
+}
+
+.canvas{
+  height:100vh;
+  width:40vw;
+}
+
+
+@media only screen and (max-width: 920px) {
+  .navbar-companyName {
+    font-size: 2vw;
+    top: 2%;
+    left: 0;
+  }
+  .navbar-email {
+    font-size: 2vw;
+    top: 2%;
+    right: 0;
+  }
+  .home-video {
+    height: 100vh;
+    width: 100vw;
+  }
+  .home-textIntro {
+    margin-top: 25vw;
+    font-size: 5vw;
+    padding: 0 5vw;
+  }
+  .home-arrow {
+    margin-top: 1vw;
+  }
+  .product {
+    height: 100vh;
+  }
+  .product-information {
+    width: 100%;
+    height: 50%;
+    font-size: 9vw;
+  }
+  .phone-container {
+    width: 100%;
+    height: 50%;
+  }
+  .para-font {
+    font-size: 3.5vw;
+  }
+
+  .canvas{
+    height:50vh;
+    width:100vw;
+  }
+ 
+}
+
+/* Media query for screens with a max width of 480px */
+@media only screen and (max-width: 480px) {
+  .navbar-companyName {
+    font-size: 3vw;
+    top: 1%;
+    left: 0;
+  }
+  .navbar-email {
+    font-size: 3vw;
+    top: 1%;
+    right: 0;
+  }
+  .home-video {
+    height: 100vh;
+    width: 100vw;
+  }
+  .home-textIntro {
+    margin-top: 25vw;
+    font-size: 8vw;
+    padding: 0 5vw;
+  }
+  .home-arrow {
+    margin-top: 0.5vw;
+  }
+  .product {
+    height: 100vh;
+  }
+  .product-information {
+    width: 100%;
+    height: 50%;
+    font-size: 9vw;
+  }
+  .phone-container {
+    width: 100%;
+    height: 50%;
+  }
+  .para-font {
+    font-size: 3.5vw;
+  } 
+  .canvas{
+    height:50vh;
+    width:100vw;
+  }
+
+}
